@@ -8,7 +8,5 @@ function solution(participant, completion) {
             break
         }
     }
-    console.log(participant)
-    console.log(completion)
     return answer;
 }
