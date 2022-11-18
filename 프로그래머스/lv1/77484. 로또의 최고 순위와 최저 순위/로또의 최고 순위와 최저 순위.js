@@ -2,7 +2,6 @@ function solution(lottos, win_nums) {
     var answer = [];
     var min = 0
     var max = 0
-    if(min === 5 || max === 5) answer.push(2)
     for(const x of lottos) {
         if(x === 0) max++
         for(const y of win_nums) {
